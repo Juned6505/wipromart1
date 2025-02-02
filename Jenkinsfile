@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/pratikp015/wipromart.git'
+               git branch: 'main', url: 'https://github.com/Juned6505/wipromart1.git'
             }
         }
         stage('Build') {
